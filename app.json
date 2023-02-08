@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "CryptoHub-app",
+    "slug": "cryptohub-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ico.png",
+    "splash": {
+      "image": "./assets/spash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#29303A"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.CryptoHub",
+      "buildNumber": "7"
+    },
+    "android": {
+      "package": "com.CryptoHub",
+      "versionCode": 5,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ico.png",
+        "backgroundColor": "#29303A"
+      }
+    },
+    "web": {
+      "favicon": "./assets/ico.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eb3b2ff9-31f6-4bab-9507-893d2d22e10f"
+      }
+    },
+    "owner": "stasian"
+  }
+}
